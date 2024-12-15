@@ -1,5 +1,5 @@
 <h1>Jogo Detona Raph</h1>
-<a href="https://evertondossantos.github.io/detona_ralph_dio/">Link do jogo.</a>
+<a href="https://evertondossantos.github.io/detona_ralph_dio/">Link do jogo</a>
 
 <h2>Objetivo:</h2>
 <p>
@@ -14,9 +14,18 @@
 <h2>Desafios:</h2>
 <p>
     <ul>
-        <li>Criar as funções de modo que o códico seja limpo e de facíl manutenção;</li>
+        <li>Criar as funções de modo que o código seja limpo e de fácil manutenção;</li>
         <li>Tornar o jogo responsivo;</li>
-        <li>Aplicar os conteúdos aprendidos e buscar novos conteúdos para melhorias do jogo</li>
+        <li>Aplicar os conteúdos aprendidos e buscar novos conteúdos para melhorias do jogo.</li>
+    </ul>
+</p>
+
+<h2>Melhorias e correções:</h2>
+<p>
+    <ul>
+        <li>Interromper o jogo ao fim das vidas ou do tempo;</li>
+        <li>Criar um menu de início;</li>
+        <li>Criar a mensagem de fim de jogo com a pontuação em exibição na tela.</li>
     </ul>
 </p>
 
