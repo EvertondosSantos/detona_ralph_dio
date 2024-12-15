@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    align-items: top;
+    width: 100%;
+    border-bottom: 5px solid #ff9100;
+    padding: 16px;
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    /* border: 2px orange solid; */
+}
+header h2:first-child{
+    color: red;
+    margin-bottom: 8px;
+}
+header .contagem-vidas{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contagem-vidas img{
+    width: 40px;
+}
+
+
+main{
+    /* border: 1px solid #008000; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/wall.png");
+}
+main .painel{
+    display: flex;
+    flex-direction: column;
+}
+.painel .linha-blocos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bloco{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000000;
+    background-color: #3ec9d3;
+}
+.inimigo{
+    background-image:url("../img/ralph.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+footer{
+    /* border: 1px solid orange; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-family: "Bebas Neue", sans-serif;
+}
+footer p span{
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(251, 255, 0);
+}
+

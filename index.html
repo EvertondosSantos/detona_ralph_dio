@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/mobile.css">
+
+    <title>Detona Ralph</title>
+</head>
+<body>
+    <header>
+        <div class="menu-time">
+            <h2>Tempo</h2>
+            <h2 id="tempo">0</h2>
+        </div>
+        <div class="menu-score">
+            <h2>Pontuação</h2>
+            <h2 id="pontuacao">0</h2>
+        </div>
+        <div class="menu-lives">
+            <h2>Vidas</h2>
+            <div class="contagem-vidas">
+                <img src="./src/img/player.png" alt="" srcset="">
+                <h2>x<span id="vidas">5</span></h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="painel">
+            <div class="linha-blocos">
+                <div class="bloco inimigo" id="b1"></div>
+                <div class="bloco" id="b2"></div>
+                <div class="bloco" id="b3"></div>
+            </div>
+            <div class="linha-blocos">
+                <div class="bloco " id="b4"></div>
+                <div class="bloco" id="b5"></div>
+                <div class="bloco" id="b6"></div>
+            </div>
+            <div class="linha-blocos">
+                <div class="bloco" id="b7"></div>
+                <div class="bloco" id="b8"></div>
+                <div class="bloco" id="b9"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <span>Everton dos Santos</span></p>
+    </footer>
+    <script defer src="./src/script/engine.js"></script> <!-- "defer": O JavaScript só será lido após o carregamento da página -->
+</body>
+</html>
